@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="text-gray-500 font-body">
+
+      <div class="grid md:grid-cols-3"><!-- content wrapper --> 
+        <div class="md:col-span-1">
+            <nav>
+                <Div>
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-300">
+                        <a href="/" class="hover-text-gray-700">Knitting love</a>
+                    </h1>
+                </Div>
+                <ul>
+                    <li class="text-gray-700 font-bold">
+                        <a href="#"></a>
+                        <span>Knitting recipes</span>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                        <span>Material</span>
+                    </li>
+                    <li>
+                        <a href="#"></a>
+                        <span>Contact</span>
+                    </li>
+                </ul>
+            </nav>
+        </div><!-- end nav-->
+
+        <main class="px-16 py-6 bg-gray-100 col-span-2">
+            <div class="flex md:justify-end">
+               <a href="#" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white">Log in</a>
+               <a href="#" class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white">Sign up</a>
+            </div>
+            
+            <header>
+                <h2 class="text-grey-700 text-6xl font-semibold">Knitting </h2>
+                <h3 class="text-2xl font-semibold">Recipies</h3>
+            </header>
+
+            <div>
+               <h4 class="font-bold mt-12 pb-2 border-b border-gray-700">Latest Recipes</h4> 
+
+               <div class="mt-8 grid lg:grid-cols-3 gap-10">
+                <!-- cards go here-->
+                <a class="cursor-pointer" href="./recipe.html">
+                <div class="card hover:shadow-lg"> 
+                    <img src="../dist/assets/img/garn.jpg" alt="yarn" class="w-full h-48 sm:h-32 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">Cape</span>
+                        <span class="block text-gray-400 text-sm">Recipie by Lína</span>
+                    </div>
+                    <!-- badge in card-->
+                    <div class="badge">
+                        <span>Easy</span>
+                    </div>
+                </div>
+                </a>
+                <div class="card hover:shadow-lg">
+                    <img src="../dist/assets/img/hruga.jpg" alt="wool" class="w-full h-48 sm:h-32 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">Wool pants</span>
+                        <span class="block text-gray-400 text-sm">recipie by Lóa</span>
+                    </div>
+                    <!-- badge in card-->
+                    <div class="badge">
+                        <span>Medium</span>
+                    </div>
+                </div>
+                <div class="card hover:shadow-lg">
+                    <img src="../dist/assets/img/peysa.jpg" alt="Sweater" class="w-full h-48 sm:h-32 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold">Sweater</span>
+                        <span class="block text-gray-400 text-sm">recipie by Lára</span>
+                    </div>
+                    <!-- badge in card-->
+                    <div class="badge">
+                        <span>Hard</span>
+                    </div>
+                </div>
+               </div>
+
+               <h4 class="font-bold mt-12 pb-2 border-b border-gray-700">Most Popular</h4>
+
+               <div class="mt-8">
+                <!--cards go here-->
+               </div>
+
+               <div class="flex justify-center">
+                <div class="btn bg-secondary-100 text-secondary-200">Load more</div>
+
+               </div>
+            </div>
+        </main>
+
+
+    </div>
+    
+</body>
+</html>
